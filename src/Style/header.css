@@ -1,0 +1,87 @@
+.container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1px;
+  background: rgba(255, 255, 255, 0.815);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-family: "Matemasie";
+  font-size: 22px;
+  margin: 20px;
+  font-weight: 800;
+}
+
+.profile {
+  position: relative;
+  display: inline-block;
+  width: 55px;
+  height: 55px;
+  margin: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgb(177, 177, 177);
+}
+
+.profile-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.badge {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.profile_toggle {
+  position: absolute;
+  top: 60px; /* Adjust to place it below the header */
+  right: 20px; /* Adjust to position it properly */
+  width: 150px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1000; /* Ensure it’s above other elements */
+}
+
+.profile_name {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.settings {
+  font-size: 14px;
+  color: #007bff;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.notifiactionbadge{
+  width: 5px;;
+  height: 5px;
+  border-radius: 50%;
+  background-color: red;
+  
+}

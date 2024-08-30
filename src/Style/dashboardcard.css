@@ -1,0 +1,22 @@
+.body-container{
+    margin: 30px;
+}
+.chart-container{
+ display: flex;
+ height: 320px;
+ width: auto;
+ justify-content: center;
+ /* align-items: center;    */
+}
+@media(max-width:715px){
+    .chart-container{
+        margin: 0px;
+        height: auto;
+        display: flex;
+        flex-direction:column;
+    }
+    .table_container{
+        width: 90vw;
+    
+    }
+}
